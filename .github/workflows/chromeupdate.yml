@@ -1,0 +1,35 @@
+name: checking for chrome updates
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '22 3 * * *'
+
+jobs:
+  run:
+    name: check update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Install xmllint
+        run: sudo apt-get install libxml2-utils
+
+      - name: Checkout repo gh-pages
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: public
+
+      - name: check update
+        run: /bin/bash run.sh
+
+      - name: commit
+        run: |
+          cd public &&
+          git config --global push.default matching &&
+          git config --global user.email "wim@42.be" &&
+          git config --global user.name "Wim" &&
+          git add * && git commit -m "Automatic update" && git push
