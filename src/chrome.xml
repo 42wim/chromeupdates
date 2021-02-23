@@ -5,7 +5,6 @@
     <version>{{stable-x86-Version}}</version>
     <download>
       <url>{{stable-x86-dl-main}}</url>
-      <url>{{stable-x86-dl-alternative}}</url>
     </download>
     <sha256>{{stable-x86-SHA256}}</sha256>
     <size>{{stable-x86-Size}}</size>
@@ -14,7 +13,6 @@
     <version>{{stable-x64-Version}}</version>
     <download>
       <url>{{stable-x64-dl-main}}</url>
-      <url>{{stable-x64-dl-alternative}}</url>
     </download>
     <sha256>{{stable-x64-SHA256}}</sha256>
     <size>{{stable-x64-Size}}</size>
@@ -23,7 +21,6 @@
     <version>{{beta-x86-Version}}</version>
     <download>
       <url>{{beta-x86-dl-main}}</url>
-      <url>{{beta-x86-dl-alternative}}</url>
     </download>
     <sha256>{{beta-x86-SHA256}}</sha256>
     <size>{{beta-x86-Size}}</size>
@@ -32,7 +29,6 @@
     <version>{{beta-x64-Version}}</version>
     <download>
       <url>{{beta-x64-dl-main}}</url>
-      <url>{{beta-x64-dl-alternative}}</url>
     </download>
     <sha256>{{beta-x64-SHA256}}</sha256>
     <size>{{beta-x64-Size}}</size>
@@ -41,7 +37,6 @@
     <version>{{dev-x86-Version}}</version>
     <download>
       <url>{{dev-x86-dl-main}}</url>
-      <url>{{dev-x86-dl-alternative}}</url>
     </download>
     <sha256>{{dev-x86-SHA256}}</sha256>
     <size>{{dev-x86-Size}}</size>
@@ -50,7 +45,6 @@
     <version>{{dev-x64-Version}}</version>
     <download>
       <url>{{dev-x64-dl-main}}</url>
-      <url>{{dev-x64-dl-alternative}}</url>
     </download>
     <sha256>{{dev-x64-SHA256}}</sha256>
     <size>{{dev-x64-Size}}</size>
@@ -59,7 +53,6 @@
     <version>{{canary-x86-Version}}</version>
     <download>
       <url>{{canary-x86-dl-main}}</url>
-      <url>{{canary-x86-dl-alternative}}</url>
     </download>
     <sha256>{{canary-x86-SHA256}}</sha256>
     <size>{{canary-x86-Size}}</size>
@@ -68,7 +61,6 @@
     <version>{{canary-x64-Version}}</version>
     <download>
       <url>{{canary-x64-dl-main}}</url>
-      <url>{{canary-x64-dl-alternative}}</url>
     </download>
     <sha256>{{canary-x64-SHA256}}</sha256>
     <size>{{canary-x64-Size}}</size>

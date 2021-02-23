@@ -7,7 +7,7 @@ for i in $@; do
 	echo 'Parsing '${i}' data ......'
 
 	xmllint --format ./tmp/checker/${i}.xml >./tmp/checker/${i}.format.xml
-	./util/xmlparser.sh ./tmp/checker/${i}.format.xml | grep -v edgedl.gvt1.com >./tmp/parse/${i}.info
+	./util/xmlparser.sh ./tmp/checker/${i}.format.xml | grep -v gvt1.com >./tmp/parse/${i}.info
 
 	sed -i 's|        ELEMENT=manifest ATTRIBUTE=version VALUE=||g' ./tmp/parse/${i}.info
 	sed -i 's|        ELEMENT=url ATTRIBUTE=codebase VALUE=||g' ./tmp/parse/${i}.info
@@ -19,10 +19,9 @@ for i in $@; do
 	sed -i 's|https://||g' ./tmp/parse/${i}.info
 	sed -i 's| ||g' ./tmp/parse/${i}.info
 
-	sed -n '14p' ./tmp/parse/${i}.info >./tmp/parse/${i}-result.info
+	sed -n '12p' ./tmp/parse/${i}.info >./tmp/parse/${i}-result.info
 	sed -n '8p' ./tmp/parse/${i}.info >>./tmp/parse/${i}-result.info
-	sed -n '10p' ./tmp/parse/${i}.info >>./tmp/parse/${i}-result.info
-	sed -n '23p' ./tmp/parse/${i}.info >>./tmp/parse/${i}-result.info
+	sed -n '21p' ./tmp/parse/${i}.info >>./tmp/parse/${i}-result.info
+	sed -n '20p' ./tmp/parse/${i}.info >>./tmp/parse/${i}-result.info
 	sed -n '22p' ./tmp/parse/${i}.info >>./tmp/parse/${i}-result.info
-	sed -n '24p' ./tmp/parse/${i}.info >>./tmp/parse/${i}-result.info
 done
