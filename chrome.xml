@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <chromechecker>
-  <time>2021-05-07 11:46:17</time>
+  <time>2021-05-08 11:46:34</time>
   <stable32>
     <version>90.0.4430.93</version>
     <download>
@@ -34,12 +34,12 @@
     <size>76248448</size>
   </beta64>
   <dev32>
-    <version>92.0.4496.2</version>
+    <version>92.0.4496.3</version>
     <download>
-      <url>https://dl.google.com/release2/chrome/AKImFasMTc3a6FPxkd-xOVo_92.0.4496.2/92.0.4496.2_chrome_installer.exe</url>
+      <url>https://dl.google.com/release2/chrome/APi3_8mQlvsXGII5mvjYMPI_92.0.4496.3/92.0.4496.3_chrome_installer.exe</url>
     </download>
-    <sha256>10786b30484019e02ad479388bc26375604f262e22e004548951eb1055910186</sha256>
-    <size>69674872</size>
+    <sha256>3765dc706e61235b5d568d54264c47b328b623d3d223b9779f3d1743cbaa54ec</sha256>
+    <size>74564480</size>
   </dev32>
   <dev64>
     <version>92.0.4496.2</version>
@@ -50,19 +50,19 @@
     <size>72680320</size>
   </dev64>
   <canary32>
-    <version>92.0.4499.0</version>
+    <version>92.0.4500.2</version>
     <download>
-      <url>https://dl.google.com/release2/chrome/IM00ctFrgJmwbEY9dtuiHQ_92.0.4499.0/92.0.4499.0_chrome_installer.exe</url>
+      <url>https://dl.google.com/release2/chrome/AN4KRSMrtiekznMbhqYSij0_92.0.4500.2/92.0.4500.2_chrome_installer.exe</url>
     </download>
-    <sha256>cb214c7f4aaaa5dedd85fb4099d26d025c8be5293d33b11dcf67f71864afd034</sha256>
-    <size>74616184</size>
+    <sha256>0c9ed9250089ac7075678151c18128e3dea0a85e57aa71ddc3f32acc076c50d5</sha256>
+    <size>75033976</size>
   </canary32>
   <canary64>
-    <version>92.0.4499.0</version>
+    <version>92.0.4500.2</version>
     <download>
-      <url>https://dl.google.com/release2/chrome/SwY1NfxzkhVM9WF9i_Oqmw_92.0.4499.0/92.0.4499.0_chrome_installer.exe</url>
+      <url>https://dl.google.com/release2/chrome/B_kSlXhAtiiJzNCdDGDYzw_92.0.4500.2/92.0.4500.2_chrome_installer.exe</url>
     </download>
-    <sha256>a33f87484d4ca8e4c50f1ac1017732727636749df9c238a7583e7c0ebb06f32e</sha256>
-    <size>77266304</size>
+    <sha256>826e6cdcc278701d763f296a48d529f6cd0c9418c0e454e0034d3ed76895f059</sha256>
+    <size>77737336</size>
   </canary64>
 </chromechecker>
