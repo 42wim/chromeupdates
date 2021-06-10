@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <chromechecker>
-  <time>2021-06-09 12:04:09</time>
+  <time>2021-06-10 11:57:53</time>
   <stable32>
-    <version>91.0.4472.77</version>
+    <version>91.0.4472.101</version>
     <download>
-      <url>https://dl.google.com/release2/chrome/OBWmYNHq7JtH92_3Ap0Zyw_91.0.4472.77/91.0.4472.77_chrome_installer.exe</url>
+      <url>https://dl.google.com/release2/chrome/AN-n_8hS0gppwoSjkGVycH0_91.0.4472.101/91.0.4472.101_chrome_installer.exe</url>
     </download>
-    <sha256>58b162872e988c9167e904f7ccb0b5fde05abd7194c81268783821a3e07df4b8</sha256>
-    <size>73741240</size>
+    <sha256>ccd3fdce87f91605175afd21be955c6f121d9bb97cdb05053e45f1120cb4e188</sha256>
+    <size>73734584</size>
   </stable32>
   <stable64>
-    <version>91.0.4472.77</version>
+    <version>91.0.4472.101</version>
     <download>
-      <url>https://dl.google.com/release2/chrome/AJzR0Zz0SQOCHzc0sR3MfHk_91.0.4472.77/91.0.4472.77_chrome_installer.exe</url>
+      <url>https://dl.google.com/release2/chrome/ANrA1loD6WYCLPAk93y-Cm0_91.0.4472.101/91.0.4472.101_chrome_installer.exe</url>
     </download>
-    <sha256>423c9e3133df7be29758a07e3f6015f82206a9072371577490d95267f227fb3a</sha256>
-    <size>76173752</size>
+    <sha256>12d622d555551cd7739793b496c42871b679e72d1354a662860c35a7132eb975</sha256>
+    <size>76261816</size>
   </stable64>
   <beta32>
     <version>92.0.4515.40</version>
@@ -34,12 +34,12 @@
     <size>77085624</size>
   </beta64>
   <dev32>
-    <version>93.0.4535.3</version>
+    <version>93.0.4535.2</version>
     <download>
-      <url>https://dl.google.com/release2/chrome/AMqI3ZcISLmj49iWdGyvou0_93.0.4535.3/93.0.4535.3_chrome_installer.exe</url>
+      <url>https://dl.google.com/release2/chrome/J4-vcxC_4XyCF88GbvhoBA_93.0.4535.2/93.0.4535.2_chrome_installer.exe</url>
     </download>
-    <sha256>aa04ce3a10927215072c8c8ded0ae615d073443fc4b6d1d6458b069b29dbae78</sha256>
-    <size>75633592</size>
+    <sha256>efc4e85a1f0af39c018bf19437a34e33f5e2668dca544d2f9a71a52da37ddd81</sha256>
+    <size>75884984</size>
   </dev32>
   <dev64>
     <version>93.0.4535.3</version>
