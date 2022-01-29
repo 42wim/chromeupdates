@@ -30,6 +30,6 @@ jobs:
         run: |
           cd public &&
           git config --global push.default matching &&
-          git config --global user.email "wim@42.be" &&
-          git config --global user.name "Wim" &&
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com" &&
+          git config --global user.name "github-actions[bot]" &&
           git add * && git commit -m "Automatic update" && git push
